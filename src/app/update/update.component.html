@@ -1,0 +1,28 @@
+<img src="assets/image/key1.jpg" class="cl_img">
+<mat-card class="example-card">
+    <mat-card-header>
+      <!-- <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Shiba Inu</mat-card-title> -->
+      <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+    </mat-card-header>
+    <!-- <img mat-card-image src="assets/image/update.png"> -->
+    <mat-card-content style="margin-left:13px;">
+        <form  name="Form" [formGroup]="loginformgroup" >
+          <p style="margin-top: 20px;color:white;">User Id</p>
+            <input matInput style="border-bottom: none;border-top: none;border-left: none;border-right: none;background-color: transparent;color:white" 
+            type="number"  [(ngModel)]="searchterm2" [ngModelOptions]="{standalone: true}" />
+            <p style="margin-top: 20px;color:white;">First Name</p>
+            <input matInput type="string" formControlName="FirstName" [(ngModel)]="searchterm3" [ngModelOptions]="{standalone: true}"/>
+            <p style="margin-top: 20px;color:white;">Last Name</p>
+            <input matInput type="string" formControlName="LastName" [(ngModel)]="searchterm4" [ngModelOptions]="{standalone: true}"/>
+            <p style="margin-top: 20px;color:white;">Address</p>
+            <input matInput type="string" formControlName="Address" [(ngModel)]="searchterm5" [ngModelOptions]="{standalone: true}"/>
+            <p style="margin-top: 20px;color:white;">Phone Number</p>
+            <input matInput type="string" formControlName="PhoneNumber" [(ngModel)]="searchterm6" [ngModelOptions]="{standalone: true}"/>
+            </form> 
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button style="color:white;margin-left: 329px;" (click)="updatelogin()">UPDATE</button>
+      <!-- <button mat-button>SHARE</button> -->
+    </mat-card-actions>
+  </mat-card>

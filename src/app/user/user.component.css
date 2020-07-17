@@ -1,0 +1,17 @@
+.table-dark {
+    color: #fff;
+    background-color: #343a40;
+}
+.table {
+    width: 90%;
+    height: 80%;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    margin-left:50px;
+    /* color: #212529; */
+    padding-right: 50px;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}

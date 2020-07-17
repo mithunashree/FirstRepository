@@ -1,0 +1,33 @@
+<div>
+    <img src="assets/image/bla.jpg" class="cl_img">
+    <!-- <div fxLayout="row" fxLayout.xs="row">
+        <div fxLayout="column" fxLayout.xs="column"> -->
+             <mat-card class="example-card">
+    <mat-card-header>
+      <!-- <div mat-card-avatar class="example-header-image"></div> -->
+      <mat-card-title style="color:white;margin-left: 105px;">REGISTRATION</mat-card-title>
+      <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> --> 
+    </mat-card-header>
+    <!-- <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> -->
+    <mat-card-content style="margin-left:13px;">
+        <form  name="Form" [formGroup]="loginformgroup" >
+            <!-- <p style="margin-top: 5px;color:white;">User Id</p>
+            <input matInput type="number" formControlName=Id /> -->
+            <p style="margin-top: 20px;color:white;">First Name</p>
+            <input matInput type="string" formControlName="FirstName"/>
+            <p style="margin-top: 20px;color:white;">Last Name</p>
+            <input matInput type="string" formControlName="LastName"/>
+            <p style="margin-top: 20px;color:white;">Address</p>
+            <input matInput type="string" formControlName="Address"/>
+            <p style="margin-top: 20px;color:white;">Phone Number</p>
+            <input matInput type="string" formControlName="PhoneNumber"/>
+            </form> 
+ </mat-card-content> 
+    <mat-card-actions>
+      <button mat-button style="margin-left:329px;color:white;" (click)="loginclicked()">Submit</button>
+      <!-- <button mat-button style="color:white;" (click)="delete()">Delete</button>  -->
+    </mat-card-actions>
+  </mat-card> --> 
+<!-- </div>
+</div> -->
+</div>
